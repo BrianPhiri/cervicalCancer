@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+   <body>
+   
+      <h2 style = "text-align: center;">Contact Form</h2>
+		
+      
+      <form action = "http://localhost:5000/contact" method = post>
+         <fieldset>
+            <legend>Contact Form</legend>
+            {{ form.hidden_tag() }}
+            
+            <div style = font-size:20px; font-weight:bold; margin-left:150px;>
+               {{ form.Gender.label }}<br>
+               {{ form.Gender }}
+               <br>
+            
+               {{ form.Age.label }}<br>
+               {{ form.Age }}
+               <br>
+
+               {{ form.Number_of_sexual_partners.label }}<br>
+               {{ form.Number_of_sexual_partners }}
+               <br>
+
+               {{ form.First_sexual_intercourse.label }}<br>
+               {{ form.First_sexual_intercourse }}
+               <br>
+
+               {{ form.num_of_pregnancies.label }}<br>
+               {{ form.num_of_pregnancies }}
+               <br>
+
+               {{ form.Smokes.label }}<br>
+               {{ form.Smokes }}
+               <br>
+
+               {{ form.Smokes_years.label }}<br>
+               {{ form.Smokes_years }}
+               <br>
+
+
+               {{ form.submit }}
+            </div>
+            
+         </fieldset>
+      </form>
+      
+   </body>
+</html>
