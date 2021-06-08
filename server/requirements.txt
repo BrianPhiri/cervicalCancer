@@ -45,7 +45,7 @@ oauth==1.0.1
 olefile==0.44
 pexpect==4.2.1
 pika==0.11.0
-Pillow==4.1.1
+Pillow==8.2.0
 protobuf==3.4.0
 PyAudio==0.2.11
 pycodestyle==2.3.1
