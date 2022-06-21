@@ -40,7 +40,7 @@ MarkupSafe==1.0
 matplotlib==2.1.0
 mccabe==0.6.1
 numba==0.35.0
-numpy==1.13.3
+numpy==1.22.0
 oauth==1.0.1
 olefile==0.44
 pexpect==4.2.1
